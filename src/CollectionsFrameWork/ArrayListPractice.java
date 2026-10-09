@@ -47,6 +47,14 @@ public class ArrayListPractice {
             System.out.println(al1.isEmpty());
 
 
+            System.out.println("====values repatation using for loop==========");
+            for(int i=0;i<al1.size();i++)
+            {
+                System.out.print(al1.get(i)+"  ");
+            }
+
+            System.out.println();
+
 
             System.out.println("====AFTER CHANGES==========");
             System.out.println(al1);
