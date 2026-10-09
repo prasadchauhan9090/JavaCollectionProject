@@ -60,7 +60,16 @@ public class VectorPractice {
         System.out.println(vc.contains("JAMNI"));
 
 
-        System.out.println("===========UPDATE THE ELEMENTS-------------------");
+        System.out.println("===========UPDATE THE ELEMENTS TO UPDATE WE HAVE SET METHOD-------------------");
+
+        vc.add("LAXMAN");
+        vc.add("JAMNI");
+
+        System.out.println(vc);
+
+        vc.set(0,"LACHU");
+
+        System.out.println(vc);
 
     }
 }
