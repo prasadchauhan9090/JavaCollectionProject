@@ -32,8 +32,6 @@ public class VectorPractice {
 
         }*/
 
-
-
         System.out.println(vc);
 
    //adding elements into vc from vc2
@@ -43,6 +41,17 @@ public class VectorPractice {
 
    //removing elements from vc
         vc.remove(0);
+        System.out.println(vc);
+
+        System.out.println("============removing all method==================");
+
+        vc.removeAll(vc2);
+        System.out.println(vc);
+
+
+        System.out.println("============clear all method==================");
+
+        vc.clear();
         System.out.println(vc);
 
     }
