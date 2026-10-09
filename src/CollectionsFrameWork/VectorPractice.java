@@ -26,17 +26,24 @@ public class VectorPractice {
 
         System.out.println("================================");
 
-        for(int i=0;i<vc2.size();i++){
+       /* for(int i=0;i<vc2.size();i++){
 
             vc.add(vc2.get(i));
 
-        }
+        }*/
+
+
 
         System.out.println(vc);
 
+   //adding elements into vc from vc2
+        vc.addAll(vc2);
 
+        System.out.println(vc);
 
-
+   //removing elements from vc
+        vc.remove(0);
+        System.out.println(vc);
 
     }
 }
