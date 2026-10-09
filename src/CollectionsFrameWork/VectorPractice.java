@@ -1,5 +1,6 @@
 package CollectionsFrameWork;
 
+import java.util.Arrays;
 import java.util.Vector;
 
 public class VectorPractice {
@@ -7,14 +8,14 @@ public class VectorPractice {
 
     public static void main(String[] args) {
 
-
-        Vector vc = new Vector();
+//by defualt Array capacity is 10 for vector
+        Vector<String> vc = new Vector<String>();
 
         vc.add("LAXMAN");
         vc.add("JAMNI");
 
 
-        Vector vc2 = new Vector();
+        Vector<String> vc2 = new Vector<String>();
 
         vc2.add("mangi");
         vc2.add("vaani");
@@ -79,6 +80,11 @@ public class VectorPractice {
 
         System.out.println(vc.lastElement());
         System.out.println(vc.firstElement());
+
+
+        System.out.println("VECTOR TO ARRAY CONVERTION USING TO STRING METHOD");
+        Object[] arr = vc.toArray();
+        System.out.println(Arrays.toString(arr));
 
     }
 }
