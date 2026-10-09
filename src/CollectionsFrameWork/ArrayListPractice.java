@@ -37,6 +37,15 @@ public class ArrayListPractice {
             System.out.println("====CONTAINS METHOD==========");
             System.out.println(al1.contains(5));
 
+            System.out.println("====CONTAINS METHOD==========");
+            System.out.println(al1.set(5, 3));
+
+            System.out.println("====SIZE METHOD==========");
+            System.out.println(al1.size());
+
+            System.out.println("====ISEMAPTY METHOD==========");
+            System.out.println(al1.isEmpty());
+
 
 
             System.out.println("====AFTER CHANGES==========");
