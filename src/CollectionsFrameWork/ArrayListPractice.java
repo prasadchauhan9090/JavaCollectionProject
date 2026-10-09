@@ -1,12 +1,18 @@
 package CollectionsFrameWork;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
-    public class ArrayListPractice {
+public class ArrayListPractice {
+
+
 
         public static void main(String args[]) {
 
-        ArrayList<Integer> al1 = new ArrayList<>();
+
+            Integer[] ar  = new Integer[] {100,200,300};
+
+        ArrayList<Integer> al1 = new ArrayList<>(Arrays.asList(ar));
 
         al1.add(1);
         al1.add(2);
@@ -17,8 +23,26 @@ import java.util.ArrayList;
         al1.add(7);
         al1.add(8);
         al1.add(9);
-        al1.add(0, 10);
+       // al1.add(0, 10);
 
     System.out.println(al1);
+
+
+    System.out.println("====RETRIVAL METHOD==========");
+    System.out.println(al1.get(5));
+
+            System.out.println("====DELETION METHOD==========");
+            System.out.println(al1.remove(5));
+
+            System.out.println("====CONTAINS METHOD==========");
+            System.out.println(al1.contains(5));
+
+
+
+            System.out.println("====AFTER CHANGES==========");
+            System.out.println(al1);
+
+
+
     }
 }
