@@ -56,6 +56,16 @@ public class ArrayListPractice {
             System.out.println();
 
 
+            System.out.println("====values repatation using forEach LOOP==========");
+
+            for(Integer fr : al1)
+            {
+                System.out.print(fr+"  ");
+            }
+
+            System.out.println();
+
+
             System.out.println("====AFTER CHANGES==========");
             System.out.println(al1);
 
