@@ -71,5 +71,14 @@ public class VectorPractice {
 
         System.out.println(vc);
 
+
+        System.out.println("IF WE WANT TO FIND THE INDEX OF ANY ONE OF THE ELEMENTS IN THE LIST WE HAVE vc.indexOf(laxman)");
+
+        System.out.println("INDEX OF THE LIST FOR THIS GIVEN ANY ELEMENT"+vc.indexOf("LACHU"));
+
+
+        System.out.println(vc.lastElement());
+        System.out.println(vc.firstElement());
+
     }
 }
