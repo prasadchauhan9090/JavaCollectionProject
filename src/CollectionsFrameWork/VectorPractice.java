@@ -51,8 +51,16 @@ public class VectorPractice {
 
         System.out.println("============clear all method==================");
 
-        vc.clear();
-        System.out.println(vc);
+      //  vc.clear();
+      //  System.out.println(vc);
+
+
+        System.out.println("============ VERIFICATION -> (CONTAINS AND CONTAINSALL)to check wether the elements are present in the one vector or in vector 2 ==================");
+
+        System.out.println(vc.contains("JAMNI"));
+
+
+        System.out.println("===========UPDATE THE ELEMENTS-------------------");
 
     }
 }
