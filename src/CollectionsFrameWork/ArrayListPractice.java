@@ -2,6 +2,7 @@ package CollectionsFrameWork;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class ArrayListPractice {
 
@@ -68,6 +69,13 @@ public class ArrayListPractice {
 
             System.out.println("====AFTER CHANGES==========");
             System.out.println(al1);
+
+
+            System.out.println("====AFTER APPLAYING SYNCRONIZATION==========");
+
+            //Making maual Syncronization in the ArrayList using Collections.synchronization
+            //By deafult working as vector
+           System.out.println(Collections.synchronizedList(al1));
 
 
 
