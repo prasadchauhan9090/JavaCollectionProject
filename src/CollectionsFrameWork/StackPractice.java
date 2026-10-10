@@ -68,9 +68,12 @@ public class StackPractice {
         System.out.println(books);
 
         // 2 POP -> REMOVE AT LAST ELEMENTS
-        System.out.println(books.pop());
-        System.out.println(books);
+//        System.out.println(books.pop());
+//        System.out.println(books);
 
+
+        // 4 SEARCH --> TO CHECK OT VERIFY THE ELEMENTS PRESENT OR NOT
+        System.out.println(books.search("RED"));
 
 
 
