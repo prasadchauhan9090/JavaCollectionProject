@@ -26,7 +26,7 @@ public class StackPractice {
        // books.clear();
 
         //verification wether the elements present in the stack or not
-       // System.out.println(books.contains("PINK"));
+        System.out.println(books.contains("PINK"));
 
 
         try {
@@ -42,6 +42,20 @@ public class StackPractice {
 
 
         System.out.println(books);
+
+
+
+        //EXACT STACK METHODS ARE
+        //1 PUSH
+        // 2 POP
+        // 3 PEEK
+        // 4 SEARCH
+
+
+
+
+
+
 
 
     }
