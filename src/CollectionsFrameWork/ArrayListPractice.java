@@ -24,6 +24,15 @@ public class ArrayListPractice {
         al1.add(7);
         al1.add(8);
         al1.add(9);
+            al1.add(1);
+            al1.add(2);
+            al1.add(null);
+            al1.add(null);
+            al1.add(5);
+            al1.add(6);
+            al1.add(7);
+            al1.add(8);
+            al1.add(9);
        // al1.add(0, 10);
 
     System.out.println(al1);
