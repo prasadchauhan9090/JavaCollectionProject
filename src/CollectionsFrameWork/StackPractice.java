@@ -45,11 +45,15 @@ public class StackPractice {
 
 
 
+        //ABOVE ARE VECTOR METHODS ARE ALSO APPLICABLE IN THE STACK
+
         //EXACT STACK METHODS ARE
-        //1 PUSH
-        // 2 POP
-        // 3 PEEK
-        // 4 SEARCH
+        //1 PUSH -> ADD
+        // 2 POP -> REMOVE AT LAST ELEMENTS
+        // 3 PEEK -> TO CHECK OR TO SEE WHAT IS THE ELEMENT IN THE LAST ONE
+        // 4 SEARCH --> TO CHECK OT VERIFY THE ELEMENTS PRESENT OR NOT
+
+
 
 
 
