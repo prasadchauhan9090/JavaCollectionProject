@@ -76,6 +76,10 @@ public class StackPractice {
         System.out.println(books.search("RED"));
 
 
+        //CHECKING IS EMPTY OR NOT
+        System.out.println(books.isEmpty());
+        System.out.println(books.empty());
+
 
 
 
