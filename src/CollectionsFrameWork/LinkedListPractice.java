@@ -14,6 +14,11 @@ public class LinkedListPractice {
 
 
     ll.add("Y1");
+    ll.add("Y2");
+        ll.add("Y3");
+        ll.add("Y4");
+        ll.add("Y5");
+        ll.add("Y6");
 
 
 
