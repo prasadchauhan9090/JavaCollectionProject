@@ -11,7 +11,7 @@ public class StackPractice {
 
         Stack<String> books = new Stack<>();
 
-        books.push("RED");
+      /*  books.push("RED");
         books.add("BLACK");
         books.add(0, "White");
 
@@ -41,7 +41,7 @@ public class StackPractice {
 
 
 
-        System.out.println(books);
+        System.out.println(books); */
 
 
 
@@ -54,6 +54,22 @@ public class StackPractice {
         // 4 SEARCH --> TO CHECK OT VERIFY THE ELEMENTS PRESENT OR NOT
 
 
+
+
+
+
+        books.push("RED");
+        books.push("BLACK");
+        books.push("White");
+
+        // 3 PEEK -> TO CHECK OR TO SEE WHAT IS THE ELEMENT IN THE LAST ONE
+        System.out.println(books.peek());
+
+        System.out.println(books);
+
+        // 2 POP -> REMOVE AT LAST ELEMENTS
+        System.out.println(books.pop());
+        System.out.println(books);
 
 
 
