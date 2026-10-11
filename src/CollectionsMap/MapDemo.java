@@ -44,9 +44,31 @@ public class MapDemo {
         System.out.println(map.get(123211));
 
 
+        System.out.println(" ------------------------------- ");
+        //Retrieval the key and values
+        Set<Integer> keyAndValue = map.keySet();
+        for(Integer key3 : keyAndValue)
+        {
+            System.out.println(key3 + " ---> " + map.get(key3));
+        }
+
+
+        System.out.println(" ------------------------------- ");
+        //Retrieval the key and values
+
+        for(Integer key4 : keyAndValue)
+        {
+            System.out.println(key4 + " ---> " + map.get(key4));
+        }
+
+        System.out.println(map);
 
 
 
+        //Remove the city from the above Mapys
+        map.remove(123211);
+
+        System.out.println(map);
 
 
     }
