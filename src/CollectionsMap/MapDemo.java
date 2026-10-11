@@ -75,5 +75,17 @@ public class MapDemo {
         System.out.println(map.containsValue("HYDERABAD"));
 
 
+        //updationg of VALUES
+        map.putIfAbsent(500050,"BANGLORE");
+        System.out.println(map);
+
+        //replace
+        map.replace(500050, "TELANGANA");
+        System.out.println(map);
+
+        //count or size in the map
+        System.out.println(map.size());
+
+
     }
 }
