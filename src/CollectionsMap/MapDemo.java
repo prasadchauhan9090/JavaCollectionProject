@@ -4,7 +4,7 @@ package CollectionsMap;
 import java.util.Collection;
 import java.util.Hashtable;
 import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class MapDemo {
 
@@ -85,6 +85,18 @@ public class MapDemo {
 
         //count or size in the map
         System.out.println(map.size());
+
+
+        //retrive the elements in the map with anethor way
+        Set<Map.Entry<Integer,String>>  entries = map.entrySet();
+
+        for(Map.Entry<Integer,String> entry : entries)
+        {
+          Integer key = entry.getKey();
+          String value = entry.getValue();
+
+          System.out.println(key + " ---> " + value);
+        }
 
 
     }
