@@ -66,9 +66,13 @@ public class MapDemo {
 
 
         //Remove the city from the above Mapys
-        map.remove(123211);
+        //map.remove(123211);
 
         System.out.println(map);
+
+        //contains or not
+        System.out.println(map.containsKey(500050));
+        System.out.println(map.containsValue("HYDERABAD"));
 
 
     }
