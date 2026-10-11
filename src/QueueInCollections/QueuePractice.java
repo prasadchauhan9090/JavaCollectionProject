@@ -16,16 +16,18 @@ public class QueuePractice {
         pq.offer(5);
         pq.offer(7);
         pq.offer(1);
-        pq.offer(0);
+
 
         System.out.println(pq);
 
 
         //retrieval the elements
         System.out.println(pq.peek());
+        System.out.println(pq);
 
         //Removal the queue
         System.out.println(pq.poll());
+        System.out.println(pq);
 
 
     }
