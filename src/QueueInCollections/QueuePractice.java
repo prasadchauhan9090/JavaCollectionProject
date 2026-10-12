@@ -38,5 +38,11 @@ public class QueuePractice {
         System.out.println(pq);
 
 
+        //checking the number/element present or not present in the queue
+        System.out.println("CONTAINSE METHOD GIVING RESULT THE VALUE IS PRESENT OR NOT -----> "+ pq.contains(7) );
+
+
+
+
     }
 }
