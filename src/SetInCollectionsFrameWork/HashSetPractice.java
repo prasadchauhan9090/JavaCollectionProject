@@ -23,6 +23,7 @@ public class HashSetPractice {
 
 
 
+    System.out.println(hs.remove(19));
 
 
     System.out.println(hs);
