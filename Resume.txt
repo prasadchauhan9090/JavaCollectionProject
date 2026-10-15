@@ -1,0 +1,10 @@
+[C:\Users\prasa\IdeaProjects\JavaCollectionProject\.git,
+C:\Users\prasa\IdeaProjects\JavaCollectionProject\.gitignore,
+C:\Users\prasa\IdeaProjects\JavaCollectionProject\.idea,
+ C:\Users\prasa\IdeaProjects\JavaCollectionProject\JavaCollectionProject.iml,
+  C:\Users\prasa\IdeaProjects\JavaCollectionProject\out,
+   C:\Users\prasa\IdeaProjects\JavaCollectionProject\Resources,
+    C:\Users\prasa\IdeaProjects\JavaCollectionProject\Resume.txt,
+    C:\Users\prasa\IdeaProjects\JavaCollectionProject\src]
+
+Process finished with exit code 0
