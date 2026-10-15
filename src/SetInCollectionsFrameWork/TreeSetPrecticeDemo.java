@@ -21,18 +21,32 @@ public class TreeSetPrecticeDemo {
 
         System.out.println(ts);
 
+
+
+        System.out.println("=================");
+
+        System.out.println("FIRST ELEMENT IN THE TREE SET IS  "+ts.first());
+        System.out.println("LAST ELEMENT IN THE TREE SET IS   "+ts.last());
+
+
+        System.out.println("=================");
+
+        System.out.println("REMOVE THE FIST ELEMENT BY POLLFIRST  "+ts.pollFirst());
+        System.out.println("REMOVE LAST ELEMENT IN THE TREE BY USING POLLLAST   "+ts.pollLast());
+
+
+        System.out.println("=================");
+
         for(Integer i : ts)
         {
             System.out.print(i+" ");
         }
 
+
         System.out.println("=================");
 
-        System.out.println("FIEST ELEMENT IN THE TREE SET IS  "+ts.first());
+        System.out.println("FIRST ELEMENT IN THE TREE SET IS  "+ts.first());
         System.out.println("LAST ELEMENT IN THE TREE SET IS   "+ts.last());
-
-
-
 
     }
 }
