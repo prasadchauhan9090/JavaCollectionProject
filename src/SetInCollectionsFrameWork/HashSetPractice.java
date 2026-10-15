@@ -1,6 +1,7 @@
 package SetInCollectionsFrameWork;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class HashSetPractice {
@@ -12,6 +13,8 @@ public class HashSetPractice {
 
 
     Set<Integer> hs = new HashSet<>();
+
+
 
 
     hs.add(2);
