@@ -34,6 +34,16 @@ public class HashSetPractice {
 
 
 
+        //data retrival
+        for(Integer elemment: hs)
+        {
+            System.out.print(elemment + "  ");
+        }
+
+
+
+
+
     }
 
 
