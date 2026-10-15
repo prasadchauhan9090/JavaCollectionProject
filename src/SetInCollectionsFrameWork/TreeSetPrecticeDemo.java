@@ -11,6 +11,7 @@ public class TreeSetPrecticeDemo {
         TreeSet<Integer> ts = new TreeSet<>();
 
         ts.add(102);
+        ts.add(5);
         ts.add(22);
         ts.add(34);
         ts.add(42);
@@ -19,10 +20,13 @@ public class TreeSetPrecticeDemo {
         ts.add(90);
         ts.add(91);
 
-
-        System.out.println(ts.subSet(22,78));
-
         System.out.println(ts);
+
+
+        System.out.println(ts.subSet(5,92).remove(22));
+        System.out.println(ts);
+
+
 
 
 
