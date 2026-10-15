@@ -21,6 +21,16 @@ public class TreeSetPrecticeDemo {
 
         System.out.println(ts);
 
+        for(Integer i : ts)
+        {
+            System.out.print(i+" ");
+        }
+
+        System.out.println("=================");
+
+        System.out.println("FIEST ELEMENT IN THE TREE SET IS  "+ts.first());
+        System.out.println("LAST ELEMENT IN THE TREE SET IS   "+ts.last());
+
 
 
 
