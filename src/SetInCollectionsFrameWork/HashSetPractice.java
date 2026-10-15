@@ -22,11 +22,15 @@ public class HashSetPractice {
     hs.add(19);
 
 
-
+//removal
     System.out.println(hs.remove(19));
 
-
+//print all data
     System.out.println(hs);
+
+
+    //check the data present or not
+        System.out.println(hs.contains(45));
 
 
 
